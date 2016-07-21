@@ -29,6 +29,10 @@ a, a:hover, a:visited, a:link {
   }
 }
 
+body[data-model-type='org.jenkinsci.plugins.workflow.job.WorkflowJob'] #tasks .task:first-child {
+    height: 0;
+}
+
 .task-link[href='/'] {
   display: none;
 }
